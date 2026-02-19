@@ -87,7 +87,7 @@ const HomePage = () => {
           <div className="relative animate-fade-in animate-delay-200">
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=800"
+                src="https://images.unsplash.com/photo-1693264251393-d28f984ca283?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Medical Supplies"
                 className="rounded-2xl shadow-2xl"
               />
