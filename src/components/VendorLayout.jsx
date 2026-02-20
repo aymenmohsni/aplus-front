@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
 import { LayoutDashboard, Package, ShoppingBag, BarChart2, Settings, LogOut, Menu, X, Store } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo.png';
 
 const VendorLayout = () => {
   const location = useLocation();

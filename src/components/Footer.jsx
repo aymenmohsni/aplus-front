@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo-white.png';
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <img src={logo} alt="APlusMedDepot logo" className="h-8 w-auto object-contain brightness-0 invert" />
+              <img src={logo} alt="APlusMedDepot logo" className="h-14 w-auto object-contain brightness-0 invert" />
               <span className="font-display text-2xl">
                 A<span className="text-primary">Plus</span>MedDepot
               </span>

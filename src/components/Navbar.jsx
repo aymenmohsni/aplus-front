@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { ShoppingCart, User, Menu, X, LogOut, LayoutDashboard, Store } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 import { useCartStore } from '../store/cartStore';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
 
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src={logo} alt="APlusMedDepot logo" className="h-8 w-auto object-contain" />
+            <img src={logo} alt="APlusMedDepot logo" className="h-14 w-auto object-contain" />
             <span className="font-display text-2xl text-neutral">
               A<span className="text-primary">Plus</span>MedDepot
             </span>
